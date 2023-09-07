@@ -37,23 +37,3 @@ def submit_form():
             return 'Did not save database!'
     else:
         return 'Something went wrong!'
-
-#@app.route('/<username>/<int:post_id>')
-#def blog():
-#    return render_template('index.html', name=username, post_id=post_id)
-# @app.route('/works')
-# def works():
-#     return render_template('works.html')
-
-# @app.route('/work')
-# def work():
-#     return render_template('work.html')
-
-# @app.route('/about')
-# def about():
-#     return render_template('about.html')
-
-# @app.route('/contact')
-# def contact():
-#     return render_template('contact.html')
-
